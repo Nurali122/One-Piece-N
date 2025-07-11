@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    background-color: rgb(136, 128, 128);
+    
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: repeat(3, 150px); */
+   
+
+    /* gap: 10px; */
+    position: relative;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+header {
+    width: 100%;
+    background-color: rgb(229, 229, 229);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-right: 6px;
+position: fixed;
+top: 0;
+left: 0;
+}
+
+.nav {
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+li {
+    list-style: none;
+ 
+}
+a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(11, 148, 135);
+    transition: all 0.3s;
+}
+
+.logo {
+    width: 120px;
+}
+.search-bc {
+    background-color: rgb(225, 225, 225);
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 4px;
+    
+
+}
+.itext {
+outline: none;
+padding: 3px 10px;
+border: none;
+}
+.cart {
+    width: 27px;
+}
+#btns {
+    background-color: black;
+    color: white;
+
+}
+#btns:hover {
+   cursor: pointer;
+}
+main {
+   margin-top: 80px;
+    width: 100%;
+
+    background-color: rgb(255, 255, 255);
+
+}
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.titlep {
+    text-align: center;
+    ;
+}
+.product {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card {
+   background-image: linear-gradient(to bottom, rgb(226, 208, 121), rgb(255, 60, 60),rgb(8, 8, 9));
+    width: 100%;
+    height: 350px;
+    max-width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.imgcard {
+    width: 270px;
+}
+.price {
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}
+#btn {
+    background-color: red;
+    color: white;
+    padding: 2px 5px;
+}
+#btn:hover {
+    cursor: pointer;
+    background-color: rgb(11, 148, 135);
+    transition: all 0.3s;
+}
+.title {
+    color: white;
+}
